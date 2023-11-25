@@ -20,33 +20,6 @@ interface IArgs {
   initOptions?: Partial<InitOptions>;
 }
 
-// export async function getPayloadClient({ initOptions }: IArgs = {}) {
-//   if (!process.env.PAYLOAD_SECRET) {
-//     throw new Error("PAYLOAD_SECRET is missing");
-//   }
-
-//   if (cached.client) {
-//     return cached.client;
-//   }
-
-//   if (!cached.promise) {
-//     cached.promise = payload.init({
-//       secret: process.env.PAYLOAD_SECRET,
-//       local: initOptions?.express ? false : true,
-//       ...(initOptions || {}),
-//     });
-//   }
-
-//   try {
-//     cached.client = await cached.promise;
-//   } catch (err: unknown) {
-//     cached.promise = null;
-//     throw err;
-//   }
-
-//   return cached.client;
-// }
-
 export const getPayloadClient = async ({
   initOptions,
 }: IArgs = {}): Promise<Payload> => {

@@ -3,7 +3,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Icons } from "./Icons";
 import NavItems from "./NavItems";
 import { buttonVariants } from "./ui/button";
-import Cart from "../features/cart/Cart";
+import Cart from "./Cart";
 
 function NavBar() {
   const user = null;

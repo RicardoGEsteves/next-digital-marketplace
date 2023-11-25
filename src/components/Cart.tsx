@@ -8,11 +8,11 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "../../components/ui/sheet";
-import { Separator } from "../../components/ui/separator";
+} from "./ui/sheet";
+import { Separator } from "./ui/separator";
 import { formatCurrency } from "@/lib/utils";
 import Link from "next/link";
-import { buttonVariants } from "../../components/ui/button";
+import { buttonVariants } from "./ui/button";
 import Image from "next/image";
 
 function Cart() {
