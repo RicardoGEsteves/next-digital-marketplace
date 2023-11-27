@@ -51,7 +51,7 @@ const ProductReel = (props: IProductReelProps) => {
             <p className="mt-2 text-sm text-muted-foreground">{subtitle}</p>
           ) : null}
         </div>
-
+        {/* TODO: create shop collections/recent added page */}
         {href ? (
           <Link
             href={href}

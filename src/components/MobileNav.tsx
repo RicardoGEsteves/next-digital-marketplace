@@ -60,7 +60,7 @@ const MobileNav = () => {
                 <X className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
-
+            {/* TODO: add modal to open each product */}
             <div className="mt-2">
               <ul>
                 {PRODUCT_CATEGORIES.map((category) => (
