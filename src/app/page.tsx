@@ -55,7 +55,6 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Link href="/products" className={buttonVariants()}>
-              {/* TODO: create trending page */}
               Browse Trending
             </Link>
             {/* TODO: create quality promise page */}
@@ -66,7 +65,7 @@ export default function Home() {
         <ProductReel
           title="New Product"
           subtitle="something about the product"
-          href="'/products?sort=recent'"
+          href="/products?sort=recent"
           query={{ sort: "desc", limit: 4 }}
         />
       </MaxWidthWrapper>

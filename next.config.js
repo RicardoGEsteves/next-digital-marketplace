@@ -8,8 +8,11 @@ const nextConfig = {
         port: "3000",
         protocol: "http",
       },
+      {
+        protocol: "https",
+        // hostname: site link
+      },
     ],
-    // domains: ["localhost"],
   },
 };
 
