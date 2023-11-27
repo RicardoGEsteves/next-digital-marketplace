@@ -1,13 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // images: {
-  //   // this is technically deprecated but works perfectly.
-  //   // if you'd like to see the remotePatterns version, I'm happy to merge a PR
-  //   domains: [
-  //     'localhost',
-  //     'digital-marketplace-production.up.railway.app',
-  //   ],
-  // },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "localhost",
+        pathname: "**",
+        port: "3000",
+        protocol: "http",
+      },
+    ],
+    domains: ["localhost"],
+  },
 };
 
 module.exports = nextConfig;
