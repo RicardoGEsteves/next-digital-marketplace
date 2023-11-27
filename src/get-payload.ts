@@ -46,6 +46,7 @@ export const getPayloadClient = async ({
     cached.promise = payload.init({
       email: {
         transport: transporter,
+        //TODO: change email
         fromAddress: "onboarding@resend.dev",
         // fromAddress: process.env.EMAIL as string,
         fromName: "Digital Marketplace",

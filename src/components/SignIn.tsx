@@ -40,7 +40,11 @@ function SignIn() {
     resolver: zodResolver(AuthCredentialsValidator),
   });
 
-  const { mutate: signIn, isLoading } = trpc.auth.signIn.useMutation({
+  const {
+    mutate: signIn,
+    isLoading,
+    data,
+  } = trpc.auth.signIn.useMutation({
     onSuccess: async () => {
       toast.success("Signed in successfully");
 
@@ -165,5 +169,3 @@ function SignIn() {
 }
 
 export default SignIn;
-
-// TODO: sign in and sign up password displayed on searchParams(url)

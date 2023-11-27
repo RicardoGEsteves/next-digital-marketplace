@@ -12,11 +12,11 @@ import {
 import { User } from "@/payload-types";
 import { useAuth } from "@/hooks/useAuth";
 
-interface IUserAccountNav {
+interface IUserAccountNavProps {
   user: User;
 }
 
-function UserAccountNav({ user }: IUserAccountNav) {
+function UserAccountNav({ user }: IUserAccountNavProps) {
   const { signOut } = useAuth();
 
   return (
