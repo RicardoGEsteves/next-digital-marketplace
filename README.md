@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Digital Marketplace
+
+e-commerce fullstack app built with:
+
+### Next 14, React, Typescript, Tailwind, React-query, MongoDB, Express, Payload CMS, Trpc, Stripe, Zod, Zustand, React-hook-forms, Shadcn-ui, Lucide-react, React-email, Nodemailer, Resend, Sonner, Swiper
 
 ## Getting Started
 
@@ -14,23 +18,38 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Important info
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create an .env or .env.local to store your keys:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Environment
 
-## Learn More
+NEXT_PUBLIC_SERVER_URL= your localhost
 
-To learn more about Next.js, take a look at the following resources:
+# Any value works but should be secure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+PAYLOAD_SECRET= your payload key
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Database - either MongoDB or Postgres work
 
-## Deploy on Vercel
+MONGODB_URL= your key
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Payments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+STRIPE_SECRET_KEY= stripe key
+
+STRIPE_WEBHOOK_SECRET= webhook key
+
+STRIPE_PRODUCT_KEY= product key
+
+# Email
+
+RESEND_API_KEY= resend key
+
+# Conta email
+
+EMAIL= your email from address
+
+## To manage your payload data
+
+localhost/sell for admin cms access | or other route that you define.
