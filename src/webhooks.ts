@@ -25,11 +25,11 @@ export const stripeWebhookHandler = async (
       process.env.STRIPE_WEBHOOK_SECRET || ""
     );
   } catch (err) {
-    return res
-      .status(400)
-      .send(
-        `Webhook Error: ${err instanceof Error ? err.message : "Unknown Error"}`
-      );
+    return res.status(400).send(
+      err instanceof Error ? err.message : "Webhook Unknown Error"
+
+      // `Webhook Error: ${err instanceof Error ? err.message : "Unknown Error"}`
+    );
   }
 
   const session = event.data.object as Stripe.Checkout.Session;
