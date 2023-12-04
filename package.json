@@ -55,7 +55,7 @@
     "tailwind-merge": "2.1.0",
     "tailwindcss-animate": "1.0.7",
     "zod": "3.22.4",
-    "zustand": "^4.4.6"
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
     "@types/express": "4.17.21",
