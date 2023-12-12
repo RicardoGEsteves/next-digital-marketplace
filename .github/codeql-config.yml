@@ -14,13 +14,13 @@ environments:
   - name: Node.js
     variables:
       - name: NODE_PATH
-        value: /next-digital-marketplace/node_modules
+        value: /digital-marketplace/node_modules
 
 # Specific rules or configurations for Node.js/npm projects
 nodejs:
   package-json: |
     {
-      "name": "next-digital-marketplace",
+      "name": "digital-marketplace",
       "version": "0.1.0",
       "private": true,
       "main": "dist/server.js",
