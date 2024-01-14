@@ -25,10 +25,13 @@ function NavItems() {
 
   useOnClickOutside(navRef, () => setActiveIndex(null));
   {
-    /* TODO: add modal to open each product */
+    // TODO: add modal to open each product
   }
   return (
-    <div className="flex gap-4 h-full" ref={navRef}>
+    <div
+      className="flex gap-4 h-full"
+      ref={navRef}
+    >
       {PRODUCT_CATEGORIES.map((category, index) => {
         const handleOpen = () => {
           if (activeIdex === index) setActiveIndex(null);

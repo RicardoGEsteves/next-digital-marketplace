@@ -38,7 +38,10 @@ const MobileNav = () => {
         onClick={() => setIsOpen(true)}
         className="lg:hidden relative -m-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400"
       >
-        <Menu className="h-6 w-6" aria-hidden="true" />
+        <Menu
+          className="h-6 w-6"
+          aria-hidden="true"
+        />
       </button>
     );
 
@@ -57,10 +60,13 @@ const MobileNav = () => {
                 onClick={() => setIsOpen(false)}
                 className="relative -m-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400"
               >
-                <X className="h-6 w-6" aria-hidden="true" />
+                <X
+                  className="h-6 w-6"
+                  aria-hidden="true"
+                />
               </button>
             </div>
-            {/* TODO: add modal to open each product */}
+
             <div className="mt-2">
               <ul>
                 {PRODUCT_CATEGORIES.map((category) => (
@@ -78,7 +84,10 @@ const MobileNav = () => {
 
                     <div className="grid grid-cols-2 gap-y-10 gap-x-4">
                       {category.featured.map((item) => (
-                        <div key={item.name} className="group relative text-sm">
+                        <div
+                          key={item.name}
+                          className="group relative text-sm"
+                        >
                           <div className="relative aspect-square overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                             <Image
                               fill
