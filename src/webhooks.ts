@@ -17,6 +17,25 @@ export const stripeWebhookHandler = async (
   const body = webhookRequest.rawBody;
   const signature = req.headers["stripe-signature"] || "";
 
+  function escapeHtml(unsafe: string): string {
+    return unsafe.replace(/[&<"'>]/g, (match) => {
+      switch (match) {
+        case "&":
+          return "&amp;";
+        case "<":
+          return "&lt;";
+        case ">":
+          return "&gt;";
+        case '"':
+          return "&quot;";
+        case "'":
+          return "&#39;";
+        default:
+          return match;
+      }
+    });
+  }
+
   let event;
   try {
     event = stripe.webhooks.constructEvent(
@@ -25,9 +44,10 @@ export const stripeWebhookHandler = async (
       process.env.STRIPE_WEBHOOK_SECRET || ""
     );
   } catch (err) {
-    return res
-      .status(400)
-      .send(err instanceof Error ? err.message : "Webhook Unknown Error");
+    const errorMessage =
+      err instanceof Error ? err.message : "Webhook Unknown Error";
+    const escapedErrorMessage = escapeHtml(errorMessage);
+    return res.status(400).send(escapedErrorMessage);
   }
 
   const session = event.data.object as Stripe.Checkout.Session;
