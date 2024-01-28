@@ -15,7 +15,7 @@
     "lint": "next lint"
   },
   "resolutions": {
-    "cliui": "7.0.2"
+    "cliui": "8.0.1"
   },
   "dependencies": {
     "@hookform/resolvers": "3.3.4",
