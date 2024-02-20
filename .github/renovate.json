@@ -32,7 +32,7 @@
   "npm": {
     "minimumReleaseAge": "3 days"
   },
-  "prCreation": "status-success",
+  "prCreation": "immediate",
   "configMigration": true,
   "platformCommit": true,
   "packageRules": [
