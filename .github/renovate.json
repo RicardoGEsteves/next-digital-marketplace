@@ -30,7 +30,7 @@
   "assignees": ["RicardoGEsteves"],
   "labels": ["dependencies", "major", "minor", "patch", "{{depName}}"],
   "schedule": ["every weekend"],
-  "prCreation": "immediate",
+  "prCreation": "not-pending",
   "configMigration": true,
   "platformCommit": true,
   "packageRules": [
