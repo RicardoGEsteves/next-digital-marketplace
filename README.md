@@ -1,5 +1,7 @@
 # Digital Marketplace
 
+> **(UPDATE)** - with the latest dependencies updates, you will have to do some small config changes.
+
 Digital Marketplace is a sophisticated full-stack e-commerce platform designed to deliver a seamless shopping experience for users. It incorporates cutting-edge technologies and frameworks to ensure robustness, efficiency, and scalability.
 
 ## Overview
