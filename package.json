@@ -31,7 +31,7 @@
     "@react-email/components": "^0.0.15",
     "@swc-node/register": "^1.8.0",
     "@tanstack/react-query": "^5.28.4",
-    "@tanstack/react-query-devtools": "^5.24.0",
+    "@tanstack/react-query-devtools": "^5.28.4",
     "@trpc/client": "^11.0.0-next-beta.289",
     "@trpc/next": "^11.0.0-next-beta.289",
     "@trpc/react-query": "^11.0.0-next-beta.289",
