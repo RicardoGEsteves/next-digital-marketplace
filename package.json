@@ -54,7 +54,7 @@
     "sonner": "1.4.3",
     "stripe": "^14.21.0",
     "swiper": "11.0.7",
-    "tailwind-merge": "2.2.1",
+    "tailwind-merge": "2.2.2",
     "tailwindcss-animate": "1.0.7",
     "zod": "3.22.4",
     "zustand": "^4.5.1"
