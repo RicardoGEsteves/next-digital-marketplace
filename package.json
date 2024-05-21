@@ -18,7 +18,7 @@
     "cliui": "8.0.1"
   },
   "dependencies": {
-    "@hookform/resolvers": "3.4.0",
+    "@hookform/resolvers": "3.4.2",
     "@payloadcms/bundler-webpack": "^1.0.3",
     "@payloadcms/db-mongodb": "^1.5.1",
     "@payloadcms/richtext-slate": "^1.5.2",
@@ -28,7 +28,7 @@
     "@radix-ui/react-scroll-area": "^1.0.5",
     "@radix-ui/react-separator": "1.0.3",
     "@radix-ui/react-slot": "1.0.2",
-    "@react-email/components": "^0.0.17",
+    "@react-email/components": "^0.0.18",
     "@swc-node/register": "^1.9.1",
     "@tanstack/react-query": "^5.37.1",
     "@tanstack/react-query-devtools": "^5.37.1",
