@@ -34,7 +34,7 @@
     "@tanstack/react-query-devtools": "5.45.0",
     "@trpc/client": "11.0.0-rc.374",
     "@trpc/next": "11.0.0-rc.401",
-    "@trpc/react-query": "11.0.0-rc.401",
+    "@trpc/react-query": "11.0.0-rc.403",
     "@trpc/server": "11.0.0-next-beta.289",
     "body-parser": "1.20.2",
     "class-variance-authority": "0.7.0",
