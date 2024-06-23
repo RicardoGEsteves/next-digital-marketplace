@@ -35,7 +35,7 @@
     "@trpc/client": "11.0.0-rc.421",
     "@trpc/next": "11.0.0-rc.403",
     "@trpc/react-query": "11.0.0-rc.421",
-    "@trpc/server": "11.0.0-next-beta.289",
+    "@trpc/server": "11.0.0-rc.421",
     "body-parser": "1.20.2",
     "class-variance-authority": "0.7.0",
     "clsx": "2.1.1",
