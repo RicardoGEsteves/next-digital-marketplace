@@ -43,7 +43,7 @@
     "date-fns": "3.6.0",
     "dotenv": "16.4.5",
     "express": "4.19.2",
-    "lucide-react": "0.427.0",
+    "lucide-react": "0.428.0",
     "next": "14.2.5",
     "nodemailer": "6.9.14",
     "payload": "2.26.0",
@@ -52,16 +52,16 @@
     "react-hook-form": "7.52.2",
     "resend": "3.5.0",
     "sonner": "1.5.0",
-    "stripe": "16.7.0",
+    "stripe": "16.8.0",
     "swiper": "11.1.9",
-    "tailwind-merge": "2.5.0",
+    "tailwind-merge": "2.5.2",
     "tailwindcss-animate": "1.0.7",
     "zod": "3.23.8",
-    "zustand": "4.5.4"
+    "zustand": "4.5.5"
   },
   "devDependencies": {
     "@types/express": "4.17.21",
-    "@types/node": "22.2.0",
+    "@types/node": "22.4.0",
     "@types/nodemailer": "6.4.15",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
@@ -71,7 +71,7 @@
     "eslint-config-next": "14.2.5",
     "nodemon": "3.1.4",
     "postcss": "8.4.41",
-    "tailwindcss": "3.4.9",
+    "tailwindcss": "3.4.10",
     "ts-node": "10.9.2",
     "typescript": "5.5.4"
   }
