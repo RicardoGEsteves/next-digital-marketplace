@@ -43,7 +43,7 @@
     "date-fns": "3.6.0",
     "dotenv": "16.4.5",
     "express": "4.19.2",
-    "lucide-react": "0.435.0",
+    "lucide-react": "0.436.0",
     "next": "14.2.6",
     "nodemailer": "6.9.14",
     "payload": "2.26.0",
