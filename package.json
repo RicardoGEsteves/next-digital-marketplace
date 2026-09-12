@@ -44,7 +44,7 @@
     "dotenv": "16.4.7",
     "express": "4.21.2",
     "lucide-react": "0.476.0",
-    "next": "15.2.0",
+    "next": "15.5.24",
     "nodemailer": "6.10.0",
     "payload": "2.32.0",
     "react": "19",
